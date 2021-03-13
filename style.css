@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #533738;
+}
+html, body {
+    background: #E5E5E5;
+}
+
+.pageHeader {
+    background-image: url(/img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png);
+    width: 100%;
+    height: 715px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.pageHeaderContent {
+    width: 1200px;
+    /* margin: 0 auto; */
+}
+
+.pageHeaderTop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.pageHeaderTop__mainMenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 840px;
+}
+
+.pageHeaderTop__logo {
+    display: flex;
+    align-items: center;
+}
+
+.pageHeaderTitle {
+    margin-top: 90px;
+    margin-left: 86px;
+    width: 530px;
+}
+
+.pageHeaderTitle__title {
+    font-size: 50px;
+}
+
+.pageHeaderTitle__text {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.pageHeaderTitle__button {
+    width: 310px;
+    height: 74px;
+    margin-top: 20px;
+    background-color: #CC8B86;
+    text-align: center;
+    line-height: 74px;
+    font-size: 20px;
+}
+
+.pageHeaderTitle__button:hover {
+    cursor: pointer;
+    background-color: #da6a66;
+    transition: all 0.4s;
+}
+
+/* a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.title-menu {
+    height: 186px;
+    width: 534px;
+    margin-top: 152px;
+    margin-left: 185.09px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    color: #533738;
+}
+
+.text-menu {
+    position: absolute;
+    width: 493.57px;
+    height: 90px;
+    left: 184.08px;
+    top: 362px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.main-button-par {
+    position: absolute;
+    width: 309.14px;
+    height: 74px;
+}
+
+.main-bottom {
+    position: absolute;
+    height: 74px;
+    width: 309.1392822265625px;
+    left: 182px;
+    top: 473px;
+    border-radius: 0px;
+    background: #CC8B86;
+} */
