@@ -1,36 +1,88 @@
 *{
     box-sizing: border-box;
-}
-html, body {
-    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #533738;
+}
+html, body {
     background: #E5E5E5;
 }
 
-.page-header {
+.pageHeader {
     background-image: url(/img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png);
-    position: absolute;
-    width: 1400px;
+    width: 100%;
     height: 715px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
-a {
-    text-decoration: none;
-    
-    display: inline-block;
+.pageHeaderContent {
+    width: 1200px;
+    /* margin: 0 auto; */
 }
 
-.main-menu {
+.pageHeaderTop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.pageHeaderTop__mainMenu {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    position: absolute;
-    width: 1201.28px;
-    height: 25px;
-    margin-top: 36px;
-    margin-left: 99.3px;
+    width: 840px;
 }
+
+.pageHeaderTop__logo {
+    display: flex;
+    align-items: center;
+}
+
+.pageHeaderTitle {
+    margin-top: 90px;
+    margin-left: 86px;
+    width: 530px;
+}
+
+.pageHeaderTitle__title {
+    font-size: 50px;
+}
+
+.pageHeaderTitle__text {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.pageHeaderTitle__button {
+    width: 310px;
+    height: 74px;
+    margin-top: 20px;
+    background-color: #CC8B86;
+    text-align: center;
+    line-height: 74px;
+    font-size: 20px;
+}
+
+.pageHeaderTitle__button:hover {
+    cursor: pointer;
+    background-color: #da6a66;
+    transition: all 0.4s;
+}
+
+/* a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
 
 .title-menu {
     height: 186px;
@@ -73,4 +125,4 @@ a {
     top: 473px;
     border-radius: 0px;
     background: #CC8B86;
-}
+} */
