@@ -1,11 +1,13 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #533738;
+    font-weight: 400;
 }
+
 html, body {
     background: #E5E5E5;
 }
@@ -75,6 +77,96 @@ html, body {
     cursor: pointer;
     background-color: #da6a66;
     transition: all 0.4s;
+}
+
+.aboutUs {
+    background-color: #E5E5E5;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUsContent {
+    width: 1032px;
+    height: 642px;
+    align-items: center;
+}
+
+.aboutUsTitle {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.aboutUsTitle h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.aboutUsMain {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.aboutUsMain__image {
+    width: 444px;
+}
+
+.aboutUsMain_text {
+    width: 590px;
+    height: 330px;
+    margin-left: 62px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.experienceHeader {
+    position: absolute;
+    width: 100%;
+    height: 274px;
+    background-color: #8D7370;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contentExperience {
+    width: 1032px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .contentExperienceText {
+    position: absolute;
+    
+} */
+
+.contentExperienceText__number {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: white;
+}
+
+.contentExperienceText__text {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ourWork {
+    width: 100%;
+    height: 1228px;
+    background-color: #E5E5E5;
 }
 
 /* a {
